@@ -1,0 +1,18 @@
+version: '2.4'
+
+services:
+  db:
+    image: mysql:8.0
+    platform: linux/amd64
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    ports:
+      - "33061:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: veric_backend
+      MYSQL_USER: veric_backend
+      MYSQL_PASSWORD: password
+volumes:
+  db_data:

@@ -1,0 +1,34 @@
+Debug:
+  Enable: true
+  Verbose: false
+DB:
+  Host: 127.0.0.1
+  Port: 33061
+  User: root
+  Password: password
+  DbName: veric_backend
+HTTP:
+  Listen: 0.0.0.0
+  Port: 8080
+  JwtEncryptSalt: WQQ0@R625Mvx#8j$4l
+  MetricSecret: RmYieFSlBPrCHXkJO7zFzGKdq2TVqyEU
+AccountPriKey:
+  DIDIssuer: 22060b06d39d4c24ae26f0415a16e839024e4ccf3e3c5b9cbb43c5f265eb3147
+  Contract: 22060b06d39d4c24ae26f0415a16e839024e4ccf3e3c5b9cbb43c5f265eb3147
+Contract:
+  HarmonyEndpoint: https://api.harmony.one/
+  EthereumEndpoint: https://goerli.infura.io/v3/f46ac8e5497b4580aa43939ff4db19d3
+  AddressPoolAddr: 0xf7d2C3712f8253178E75CDc2640446c1e4ea7908
+  MultiCallAddr: 0x5ba1e12693dc8f9c48aad8770482f4739beed696
+  DidRegistryAddr: 0x01FD38cA25cbB9e4C975B6Ce329ca10153A8e927
+Logic:
+  AdministrationCollectionAddr: 0x1505B2B7d1072F1a3dD2327dD407C2aD877E4277
+  SuspendAllMerchant: false
+  WalletPoolLackThreshold: 0.8
+HCaptcha:
+  SiteKey: c594cd42-7325-4ca7-a19e-d7a6715a8f4e
+  SecretKey: 0xAB87E03aBC3179104f1C3DC4F1175585Bf5ebA51
+TianApi:
+  Key: 2b3f01af3e2c4d184467ee413b5c93d9
+PagerDuty:
+  Key: 23e371daf6eb4302c0673111c58c8976
